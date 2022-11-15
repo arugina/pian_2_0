@@ -1,0 +1,157 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="k%:w?7DQH.vu0s/qjzqE">Oktav</variable></variables><block type="device_forever" id="LZ3ciNU5~KsU?1BYA_xU" x="0" y="0"><statement name="HANDLER"><block type="device_clear_display" id="HiXhpujJ8:POgKT?I0TG"><next><block type="controls_if" id="2Jh{e`GvL-x-26`fNzyH"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="4+36CUTp9kxQD`o:!)3g"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K0</field></block></value><statement name="DO0"><block type="basic_show_arrow" id="f=^Q|M2C9LGb6@Uo,3/{"><value name="i"><shadow type="device_arrow" id="i^P_C/Oj$*A:RiX]Zivs"><field name="arrow">ArrowNames.North</field></shadow></value><next><block type="variables_set" id="ZpsKW$$YSJT_8B)wOC~1"><field name="VAR" id="k%:w?7DQH.vu0s/qjzqE">Oktav</field><value name="VALUE"><shadow type="math_number" id="b1L%[ja``V;sm=h]/8L0"><field name="NUM">0</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="+28$YB(a+;oTs#UF5e9:"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="15F}rK9I:w5}pvkK}dTM"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K8</field></block></value><statement name="DO0"><block type="basic_show_arrow" id="nq^,|D{Zc|+bUXfA=(yG"><value name="i"><shadow type="device_arrow" id="OTd^{u?|XFqg}C[yBjz="><field name="arrow">ArrowNames.South</field></shadow></value><next><block type="variables_set" id="Fi??TGGuEF*]%J:EYyUl"><field name="VAR" id="k%:w?7DQH.vu0s/qjzqE">Oktav</field><value name="VALUE"><shadow type="math_number" id="HQq?u3~+r.2Tzevx`W,h"><field name="NUM">1</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="_.)rrqjy=MlbO]85DxRa"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="iedas$NC9kz`[Ic06NbW"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="IM*J$Z7!tE4K=VS7Xb;F"><field name="VAR" id="k%:w?7DQH.vu0s/qjzqE">Oktav</field></block></value><value name="B"><shadow type="math_number" id="ulAp7/p-PE%e!hA-Uu_v"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="controls_if" id="VWIw@z@kaQ@jE1}PHI|b"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="/=]v6Jft2t#9+stoFZ+d"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K9</field></block></value><statement name="DO0"><block type="device_show_leds" id="z^snE:;nyuOZBp;U|nlO"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="5V-S}C]HQHzKaZfh0dD`"><value name="note"><shadow type="device_note" id="%M_g]#(`^eT4@)7+Fz9o"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id=".AtmDUlKUitHTHf+Ol;^"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="MCrtEpSMSeG=eh0Y_g?6"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="Nl|]/SN5nA~rk=46d?wM"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K1</field></block></value><statement name="DO0"><block type="device_show_leds" id="z|_#uZm|{J}Db0_8x.h0"><field name="LEDS">`
+        # # # . . 
+        # . # . # 
+        # . . . # 
+        # . # . # 
+        # # # . .
+        `</field><next><block type="device_play_note" id="Ip5MaX~x7)/0zp!M~2$k"><value name="note"><shadow type="device_note" id="=UigOm/@O_2w:]D:d0x="><field name="name">277</field></shadow></value><value name="duration"><shadow type="device_beat" id="!tuJOs$.n{JxbD`)rO*9"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="2mqT;dWR#m0ltiotovhW"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="1A0u:xE%vqcc1%u+mnLx"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K10</field></block></value><statement name="DO0"><block type="device_show_leds" id="U,;OJpd)M5N7q]Pr*$KA"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # . # . . 
+        # . # . . 
+        # # . . .
+        `</field><next><block type="device_play_note" id=")h/UAn(gPD7qzazonXEU"><value name="note"><shadow type="device_note" id="wnmMaUDlVP!X?(6@+k$J"><field name="name">294</field></shadow></value><value name="duration"><shadow type="device_beat" id="e)c0{fTP)Wv{MBN{(b-E"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="[+CE*7.=x1=zF!`YuPGw"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="//g(#cpx$Vo@Aq@*j@F`"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K2</field></block></value><statement name="DO0"><block type="device_show_leds" id="5=ez}`[0?h1TAu+ERLDa"><field name="LEDS">`
+        # # . . . 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # . . .
+        `</field><next><block type="device_play_note" id="|IT;sxFzu_JLGOWDJ5^r"><value name="note"><shadow type="device_note" id=",o]Pnw{dh~jx5ZsDae0D"><field name="name">311</field></shadow></value><value name="duration"><shadow type="device_beat" id="Mv|5~KU]ZSi36W1~ki(1"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="=BRa5;IHX0/K9kahL5^E"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="Wcq[3{^5pTTld_%-b0GP"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K11</field></block></value><statement name="DO0"><block type="device_show_leds" id="-mG.uF:_Bycs@_,1SNdv"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # . . . 
+        # . . . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="t7zt}IQ;Jm+zpk+sWe5`"><value name="note"><shadow type="device_note" id="~KelU)M|XwazXnAiN~O6"><field name="name">330</field></shadow></value><value name="duration"><shadow type="device_beat" id="bQq#5bR4n!18Wg;Dms-R"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="r_SA)VnjG0Jq1CLgv%!;"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="!x;NAtzC#^%17|sojyc~"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K12</field></block></value><statement name="DO0"><block type="device_show_leds" id="RH=j%DP:~%oCTlHVA+.Z"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # . . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_play_note" id=",o$S?!%f,Dn,CE|0dQ-."><value name="note"><shadow type="device_note" id="{Qa=O=)i[.3$EM1hO|rz"><field name="name">349</field></shadow></value><value name="duration"><shadow type="device_beat" id="+axNTO]4~n:jd@l!j0=9"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="v*,gr#hKK4;$fBkYjG=N"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="P]tB0-UyI2Ds{J989v,3"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K3</field></block></value><statement name="DO0"><block type="device_show_leds" id="2):8a/0+%!oul}GTNeas"><field name="LEDS">`
+        # # # . . 
+        # . . . # 
+        # # . . # 
+        # . . . # 
+        # . . . .
+        `</field><next><block type="device_play_note" id="{(+8:F#o{O=0679$7]Xt"><value name="note"><shadow type="device_note" id="@r8[7BEeEAtbdOP?ebt,"><field name="name">370</field></shadow></value><value name="duration"><shadow type="device_beat" id="mvpqhLS;|DybxaiAOj$]"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="P3co|lyNm*X{T%.nkSP|"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="!-w,:C/w`8arZp7O9s?o"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K13</field></block></value><statement name="DO0"><block type="device_show_leds" id="=mp_;y;=SI#W4nH|Uryc"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="11GiPQIZqm7z6f!z|kvo"><value name="note"><shadow type="device_note" id="]B$XtXqH#O{$IO;`K1/g"><field name="name">392</field></shadow></value><value name="duration"><shadow type="device_beat" id="RD)DB~sq#vOENAc31lL5"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="Mc:Kmz0E$)81`n)TAJ*2"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="Q4T-~j,x?(;=Z7Z+o?}K"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K4</field></block></value><statement name="DO0"><block type="device_show_leds" id="m%acx:9=|cm%]qXrs}98"><field name="LEDS">`
+        # # # . . 
+        # . . . # 
+        # . . . # 
+        # . # . # 
+        # # # . .
+        `</field><next><block type="device_play_note" id="5:JJWQ9k1crvT~-`{T(%"><value name="note"><shadow type="device_note" id="j7t8G/a).TLX~XcWi4Cj"><field name="name">415</field></shadow></value><value name="duration"><shadow type="device_beat" id="HL?M_FXVej/(CNOd=%]i"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="@,FRfq`}c{}uErH1M1KU"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="b!bn#?~N5n~kGM;4}=],"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K14</field></block></value><statement name="DO0"><block type="device_show_leds" id="%3B9ADZSGe0N/0*=$+JJ"><field name="LEDS">`
+        . # . . . 
+        # . # . . 
+        # # # . . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_play_note" id="7p0lD4[XazSt:u_GwC1f"><value name="note"><shadow type="device_note" id="k^pE%OH0Qqj0*[u9@wKp"><field name="name">440</field></shadow></value><value name="duration"><shadow type="device_beat" id="}8A`+6D}bbKyPYmt4V~W"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id=":oW))Y|(#20t}r+=.lQ~"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="zN,QP$l1l}WRpi*5O;Qc"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K5</field></block></value><statement name="DO0"><block type="device_show_leds" id="fW9CzmkP/W*F;qKMptiq"><field name="LEDS">`
+        . # . . . 
+        # . # . # 
+        # # # . # 
+        # . # . # 
+        # . # . .
+        `</field><next><block type="device_play_note" id="pQJ2#q.pD%WkJ=QhLTEP"><value name="note"><shadow type="device_note" id="6wJ5a!mR3yiQn4|qE*!)"><field name="name">466</field></shadow></value><value name="duration"><shadow type="device_beat" id=",_V@PGwU6pn9R.s/pYgV"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="~J:;oW7ghdnVH1)]z}*#"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id=":E4~_}fqFjPfas0C,85*"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K6</field></block></value><statement name="DO0"><block type="device_show_leds" id="MqL}wYAJ`c=hmkBMwA~2"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # # . . . 
+        # . # . . 
+        # # . . .
+        `</field><next><block type="device_play_note" id="T$laV%h6]3GA@.fWM]PF"><value name="note"><shadow type="device_note" id="|oY6_rx$yl/[vU=cFjY="><field name="name">494</field></shadow></value><value name="duration"><shadow type="device_beat" id="7lz3!6XoqblLHxQP$?@a"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="e4S:3#KK9j@5}C@MQTP+"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="7a0}9FTX3;T.dG9ngJPi"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K7</field></block></value><statement name="DO0"><block type="device_show_leds" id="YowY@I)kZXMLr{#Ldp(#"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="kOEZjz9Y/Gzu%-.1E-sI"><value name="note"><shadow type="device_note" id="%Nop4VAmc;]^E$UHQ@aX"><field name="name">523</field></shadow></value><value name="duration"><shadow type="device_beat" id="]vz9~YBIUxprC$A~deGA"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="controls_if" id="npans{RTdm#/MW0yI.(u"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="($9_R=G=,pjMMT@uquWd"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="86AO~JMpbce|/eo(vP4K"><field name="VAR" id="k%:w?7DQH.vu0s/qjzqE">Oktav</field></block></value><value name="B"><shadow type="math_number" id="8f;tm~]erPV.o[Cm+!iy"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="controls_if" id="rk*uPCn8v6z|li^uCivK"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="heQlt[Js`V(:`FfGE1np"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K9</field></block></value><statement name="DO0"><block type="device_show_leds" id="-(xF^hGlIc@Ze@c3y/L;"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="[0s]ugKD@ol%~S12tt%N"><value name="note"><shadow type="device_note" id="_crEG]0SI]jVFRC{UVOW"><field name="name">131</field></shadow></value><value name="duration"><shadow type="device_beat" id="]Zb6bPHm)C*%{%*|TH~R"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="(|%MH(%0%p^0r*=uejE;"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="mFTrOj0U+.8`EiqLP_C_"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K1</field></block></value><statement name="DO0"><block type="device_show_leds" id="RD5.]AD{=)KQsA4*yne7"><field name="LEDS">`
+        # # # . . 
+        # . # . # 
+        # . . . # 
+        # . # . # 
+        # # # . .
+        `</field><next><block type="device_play_note" id="ACnF@4-B@=AAF|3I`[+j"><value name="note"><shadow type="device_note" id="oZz(bD;^7fI:BLTWj1*]"><field name="name">139</field></shadow></value><value name="duration"><shadow type="device_beat" id=".nV)0N_2T{XH+Ckw7*+V"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="4Wp24!(yHV4J={/d:jKt"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="%`xiBQ?pr+!S#2VW)_r7"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K10</field></block></value><statement name="DO0"><block type="device_show_leds" id="!bJ9|t5H.^;(jX-eO!nT"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # . # . . 
+        # . # . . 
+        # # . . .
+        `</field><next><block type="device_play_note" id="hYf+jM9aJPtCB-eO6(Ru"><value name="note"><shadow type="device_note" id="*yF!bQk=*;{7ihB#VW(N"><field name="name">147</field></shadow></value><value name="duration"><shadow type="device_beat" id="kud`yU{~tzlsIJrGgE?L"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="UF7GAY]S=I1AhWhDq^,?"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="ymByA(H*udys/-vBeTrV"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K2</field></block></value><statement name="DO0"><block type="device_show_leds" id="suNZ/X4GGbS~pvNEpkK!"><field name="LEDS">`
+        # # . . . 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # . . .
+        `</field><next><block type="device_play_note" id=".OAJwI^+*%[4ms=l%gh8"><value name="note"><shadow type="device_note" id="B)EwKQ~FF)pIqmeSiDS,"><field name="name">156</field></shadow></value><value name="duration"><shadow type="device_beat" id=".`~G[-cNo;$)b=R;x^yN"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="45EP+ckJFZ7}|2(4VxAy"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="#~#j|RgLtOPN|}2v!]2c"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K11</field></block></value><statement name="DO0"><block type="device_show_leds" id="c9LP~o$=|.)8iFA=Z?Hz"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # . . . 
+        # . . . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="NU(:VEWV[6]}H?-8q`/S"><value name="note"><shadow type="device_note" id="X{K)(=.A*dlzA!);yf=#"><field name="name">165</field></shadow></value><value name="duration"><shadow type="device_beat" id="6`KSoMOm)FvQGQ6(^UPx"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="nCdx(/:e^%i5E/7pI5]U"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="r^Ml+D%+,,,LD{`]2(jI"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K12</field></block></value><statement name="DO0"><block type="device_show_leds" id="w8*^-6wB`MUf3QK6nK8g"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # # . . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_play_note" id="c:V`r?EDut~!ax1|@$P)"><value name="note"><shadow type="device_note" id="kgbryTcD_mU%Z8=y5ci="><field name="name">175</field></shadow></value><value name="duration"><shadow type="device_beat" id="5nI|m!`qO-haw*qLG]Q:"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="K/]6;CrU7ELx]Jlj4,hP"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="vo!Yzl7y{=N9Bh(|Tha="><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K3</field></block></value><statement name="DO0"><block type="device_show_leds" id="taF69w]+L39fjCnM!u`#"><field name="LEDS">`
+        # # # . . 
+        # . . . # 
+        # # . . # 
+        # . . . # 
+        # . . . .
+        `</field><next><block type="device_play_note" id="04MC7|e_!YeEFECtouu]"><value name="note"><shadow type="device_note" id="I|M5eR%$Ln[z:|vt;9`n"><field name="name">185</field></shadow></value><value name="duration"><shadow type="device_beat" id="+)znH`s3o4hyd#G{KjZ-"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="Mx9fP{T%fIrV{,4k%IT*"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="O8@A1stauQpgY*r((}5E"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K13</field></block></value><statement name="DO0"><block type="device_show_leds" id="Vy2OITvk-{QN**0cxadi"><field name="LEDS">`
+        # # # . . 
+        # . . . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="p39JW{vgrf@$gArgp/J1"><value name="note"><shadow type="device_note" id="/Fc={8zuchbMl33ClPO4"><field name="name">196</field></shadow></value><value name="duration"><shadow type="device_beat" id="ZM:B9gZ4YA4+qD]avBrj"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="/T5`}rOYMN?~GIl3l4j,"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="o|1jDl[Yh|{3Bv00~ffj"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K4</field></block></value><statement name="DO0"><block type="device_show_leds" id="T!T^-*T7l8%Ac?#v6@JM"><field name="LEDS">`
+        # # # . . 
+        # . . . # 
+        # . . . # 
+        # . # . # 
+        # # # . .
+        `</field><next><block type="device_play_note" id="@tk:d^?id[eiAGEBO!tD"><value name="note"><shadow type="device_note" id="wPbPjA_tq2{t+iFe(5lv"><field name="name">208</field></shadow></value><value name="duration"><shadow type="device_beat" id="PrnqCpWW$jemy!,:g;*C"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="yg!8Bubs+ZdK-,Sm+zr="><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id=";i;[.NrXG)arG-w$H[Ve"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K14</field></block></value><statement name="DO0"><block type="device_show_leds" id="`@pr[|37nklzD=-yj9yY"><field name="LEDS">`
+        . # . . . 
+        # . # . . 
+        # # # . . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_play_note" id="1qc!{.R?C]=e(4BQPF?G"><value name="note"><shadow type="device_note" id="c9=S.Hyw7s8r7$+5w=,T"><field name="name">220</field></shadow></value><value name="duration"><shadow type="device_beat" id="G8%pd~5ddHU:DP3K$q}L"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="Xg`*)D#;1/BFxItzmD*."><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="/TMD8,o2.gILRIL^R?kZ"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K5</field></block></value><statement name="DO0"><block type="device_show_leds" id="ED:z^@on@L70iohK;IXn"><field name="LEDS">`
+        . # . . . 
+        # . # . # 
+        # # # . # 
+        # . # . # 
+        # . # . .
+        `</field><next><block type="device_play_note" id="NJbSQW|`G}OP{rWXB#w^"><value name="note"><shadow type="device_note" id="pj_W@Z=i-nSn/3~W}XRT"><field name="name">233</field></shadow></value><value name="duration"><shadow type="device_beat" id="e[0?V7{M*Y*[S|UiiVf,"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="hs-Uau94z@k;iV4Q~RlI"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="~$hNwUU?-c`[R9`({T2G"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K6</field></block></value><statement name="DO0"><block type="device_show_leds" id="$PI(MzGP@dimTBtK:2,k"><field name="LEDS">`
+        # # . . . 
+        # . # . . 
+        # # . . . 
+        # . # . . 
+        # # . . .
+        `</field><next><block type="device_play_note" id="FhiGWh-Qc@sM:#!+pv4h"><value name="note"><shadow type="device_note" id="cBbt]l8NH~@T^D0c(9ot"><field name="name">247</field></shadow></value><value name="duration"><shadow type="device_beat" id="ZVjvFX%10Z3mXjJB+#Be"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement><next><block type="controls_if" id="owq3A7ZHxDZhd]%E:WZ]"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="kitronik_key_is_pressed" id="N+SeN{_1(biZ2+^+)Fc~"><field name="key">Kitronik_Piano.PianoKeyAddresses.PIANO_ID_KEY_K7</field></block></value><statement name="DO0"><block type="device_show_leds" id="bnffj_d~I`3bWy3,F3o,"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # . . . . 
+        # . # . . 
+        # # # . .
+        `</field><next><block type="device_play_note" id="v3_kym6S`H8JvSK$}ZRn"><value name="note"><shadow type="device_note" id="$^TsDoZWA}}!i9)V6(Wd"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="#:qoi9c(;8]Ni;95zfrP"><field name="fraction">BeatFraction.Half</field></shadow></value></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="AiGsDC{##3~0X57.oU:d" x="354" y="12"><statement name="HANDLER"><block type="kitronik_set_note_length" id="|,qRc=M{0y`!|R9k+Dln"><value name="length"><shadow type="math_number_minmax" id="usLM?0mG(cdbSD;-9[^5"><mutation min="250" max="1000" label="Length" precision="0"></mutation><field name="SLIDER">250</field></shadow></value><next><block type="kitronik_set_key_sensitivity" id="0qXsidK1CS)k%vN5)!eW"><value name="sensitivity"><shadow type="math_number_minmax" id="az1|XX.u.`dmE:8.N6RJ"><mutation min="1" max="32" label="Sensitivity" precision="0"></mutation><field name="SLIDER">16</field></shadow></value><next><block type="kitronik_set_noise_threshold" id="@a$e;xQ9uOCK%P2,`Xy*"><value name="noiseFactor"><shadow type="math_number_minmax" id="5R$!kOm|S{7|D!{rfH+("><mutation min="1" max="63" label="NoiseThreshold" precision="0"></mutation><field name="SLIDER">14</field></shadow></value><next><block type="variables_set" id="l.sN6X#+bIcU2PA$G6EJ"><field name="VAR" id="k%:w?7DQH.vu0s/qjzqE">Oktav</field><value name="VALUE"><shadow type="math_number" id="vedP$$6?)1*#]P`5v9;r"><field name="NUM">0</field></shadow></value><next><block type="basic_show_icon" id="^eM6T%imSzpuNWrX^Ix}"><field name="i">IconNames.EigthNote</field><next><block type="device_pause" id="2WRf:zzqUy!=ZmPXZ72R"><value name="pause"><shadow type="timePicker" id="v@-fz1q^_Kf7ElI7^W1p"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="+?uUSO0N7Xz%#:bn+I~}"><value name="text"><shadow type="text" id="36I1_f$TVlJ/q:L/V@r{"><field name="TEXT">roboTop by Arina</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="SFgxG5k6=1|E%W]:48#|" x="644" y="16"><statement name="HANDLER"><block type="kitronik_full_piano_play" id="bLZ?@G3xDKSR{[dTW(bh"></block></statement></block></xml>
